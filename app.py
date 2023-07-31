@@ -40,9 +40,11 @@ def display_responses():
         st.write(response["choices"][0]["text"])
 
 def main():
-    os.environ["OPENAI_API_KEY"] = "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"
     st.set_page_config(page_title="Upload your PDF")
-    st.header("Upload your PDF")
+    openai_api_key = st.sidebar.text_input('OpenAI API Key')
+    os.environ["OPENAI_API_KEY"] = openai_api_key
+
+    st.header("Upload your PDF (after inputting OpenAI Key to the right)")
 
     uploadFile = st.file_uploader("Upload your PDF", type="pdf")
     if "question_generated" not in st.session_state:
