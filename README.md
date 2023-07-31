@@ -17,3 +17,9 @@ To use the application, run the `main.py` file with the streamlit CLI (after hav
 ```
 streamlit run app.py
 ```
+
+Input the OpenAI API key provided in the FinalProject.pdf document in the zip file
+
+## OPenAI API Key
+
+The key can be found in the FinalPRoject.pdf file
