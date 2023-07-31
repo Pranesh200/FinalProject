@@ -19,6 +19,7 @@ streamlit run app.py
 ```
 
 Input the OpenAI API key provided in the FinalProject.pdf document in the zip file
+Use the paper included in the zip file for testing
 
 ## OPenAI API Key
 
